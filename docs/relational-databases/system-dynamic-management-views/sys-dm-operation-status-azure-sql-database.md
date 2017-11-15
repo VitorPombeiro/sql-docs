@@ -80,7 +80,7 @@ ms.workload: "Inactive"
  Show most recent geo-replication operations associated with database ‘mydb’.  
   
 ```  
-SELECT * FROM sys.dm_ operation_status   
+SELECT * FROM sys.dm_operation_status   
    WHERE major_resource_id = ‘myddb’   
    ORDER BY start_time DESC;  
 ```  
